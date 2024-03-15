@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(46, 45, 54);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.menu-bar button {
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+  padding: 5px 5px;
+}
+
+.menu-bar button:focus {
+  outline: none;
+}
+
+.menu-bar button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  margin-top: 25px;
+  background-color: #333;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: calc(50% - 20px);
+  background-color: hsl(60, 100%, 82%);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.box h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.box p {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .box {
+    width: calc(25% - 20px);
+  }
+}

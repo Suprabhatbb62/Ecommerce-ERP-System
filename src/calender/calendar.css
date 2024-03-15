@@ -1,0 +1,57 @@
+.rbc-calendar,
+.rbc-header,
+.rbc-event-content,
+.rbc-time-view,
+.rbc-date-cell,
+.rbc-time-header-content {
+  color: white;
+}
+
+.rbc-event-label {
+  color: white !important;
+}
+
+.rbc-calendar,
+.rbc-header,
+.rbc-event,
+.rbc-time-header,
+.rbc-day-bg {
+  background-color: transparent !important;
+}
+
+.rbc-event {
+  background-color: transparent !important;
+}
+
+.rbc-date-cell {
+  background-color: transparent !important;
+}
+
+.rbc-off-range-bg {
+  background-color: transparent !important;
+}
+
+.rbc-toolbar-select input[type="date"] {
+    background-color: rgb(213, 207, 207);
+    color: black;
+    padding: 8px 12px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+.rbc-toolbar button {
+    background-color: white;
+    color: black;
+    padding: 8px 12px; 
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 7px;
+}
+
+.rbc-toolbar {
+    margin: 50px;
+}
